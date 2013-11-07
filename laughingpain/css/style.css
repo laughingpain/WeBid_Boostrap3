@@ -1,0 +1,149 @@
+.head {
+  text-shadow: 0 1px 0px rgba(0, 0, 0, 0.5);
+  background: #404040;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 0 1px 0px rgba(255, 255, 255, 0.05) inset;
+}
+
+.head .search-bar {
+  padding: 10px 15px;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
+          box-shadow: 0 1px 0 rgba(255, 255, 255, 0.05);
+}
+
+.nav > li > a {
+  position: relative;
+  display: block;
+  padding: 10px 10px;
+}
+
+.nav-text {
+	display: block;
+	padding: 10px 0px;
+	position: relative;
+}
+
+.search {
+	padding-top: 8px;
+}
+
+body {
+	background: url("images/bg.png");
+}
+
+.toolbar {
+ margin-top:-10px;
+ margin-bottom: 20px;
+}
+
+/* main menu categories dropdown with pills */
+.categories-dropdown { }
+.categories-dropdown a { }
+.categories-dropdown a:hover { text-decoration: none }
+.single-cat-dopdown { margin: 10px }
+.single-cat-dopdown a:hover { text-decoration: none }
+.categories-dropdown .nav-collapse .nav > li > a:hover,
+.categories-dropdown .nav-collapse .dropdown-menu a:hover { padding: 0 }
+
+.form-toolbar {
+	padding-top: 5px;
+}
+
+
+.box:not(.dark) header .toolbar .nav > li > a {
+  color: #fff;
+}
+
+.box header .toolbar {
+  display: inline-table;
+  float: right;
+}
+
+.box header .toolbar .btn-toolbar {
+  margin: 6px 3px;
+}
+
+.box header .toolbar .label,
+.box header .toolbar .badge {
+  display: inline-block;
+  margin: 10px;
+}
+
+.box header .toolbar .nav {
+  margin: 1px 1px 0 0;
+}
+
+.box header .toolbar .nav > li {
+  display: inline-block;
+}
+
+.box header .toolbar .nav > li > a {
+  padding-top: 9px;
+}
+
+.box header .toolbar .nav > li > a:hover,
+.box header .toolbar .nav > li > a:focus {
+  color: #222;
+}
+
+.box header .toolbar > .btn {
+  margin-right: 4px;
+}
+
+.box header .toolbar > .btn-sm,
+.box header .toolbar > .btn-group {
+  margin: 4px;
+}
+
+.box header .toolbar > .btn-xs {
+  margin: 6px;
+}
+
+.box header .toolbar .input-sm {
+  margin: 4px -4px;
+}
+
+.box header .toolbar .progress {
+  min-width: 120px;
+  margin: 10px 4px;
+}
+
+.box header .toolbar .progress.middle {
+  height: 12px;
+  margin: 13px 4px;
+}
+
+.box header .toolbar .progress.mini {
+  height: 6px;
+  margin: 16px 4px;
+}
+
+.box header .icons,
+.box header h5,
+.box header .toolbar {
+  position: relative;
+  display: block;
+  float: left;
+  min-height: 1px;
+  padding: 0;
+  margin: 0;
+}
+
+.box header .icons {
+  padding: 10px 15px;
+  border-right: 1px solid #ddd;
+  -webkit-box-shadow: 1px 0px 0px #ffffff;
+          box-shadow: 1px 0px 0px #ffffff;
+}
+
+.box header h5 {
+  padding: 12px;
+  font-weight: bold;
+}
+
+.btn-sm {
+    margin-top: 20px;
+}
+
